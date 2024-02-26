@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -78,7 +79,7 @@ body {
   position: relative;
 }
 
-#navBar li a{
+#navBar li a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
@@ -137,7 +138,7 @@ body {
   font-size: 15px;
 }
 
-#feature{
+#feature {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -155,16 +156,16 @@ body {
   margin: 15px 0;
 }
 
-#feature .feBox:hover{
+#feature .feBox:hover {
   box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
 }
 
-#feature .feBox img{
+#feature .feBox img {
   width: 100%;
   margin-bottom: 10px;
 }
 
-#feature .feBox h6{
+#feature .feBox h6 {
   display: inline-block;
   padding: 9px 8px 6px 8px;
   line-height: 1;
@@ -173,31 +174,38 @@ body {
   background-color: #fddde4;
 }
 
-#feature .feBox:nth-child(2) h6{
+#feature .feBox:nth-child(2) h6 {
   background-color: #cdebbc;
 }
 
-#feature .feBox:nth-child(3) h6{
+#feature .feBox:nth-child(3) h6 {
   background-color: #d1e8f2;
 }
 
-#feature .feBox:nth-child(4) h6{
+#feature .feBox:nth-child(4) h6 {
   background-color: #cdd4f8;
 }
 
-#feature .feBox:nth-child(5) h6{
+#feature .feBox:nth-child(5) h6 {
   background-color: #f6dbf6;
 }
 
-#feature .feBox:nth-child(6) h6{
+#feature .feBox:nth-child(6) h6 {
   background-color: #fff2e5;
 }
 
-#product1{
+#product1 {
   text-align: center;
 }
 
-#product1 .product{
+#product1 .proContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+#product1 .product {
   width: 23%;
   min-width: 250px;
   padding: 10px 12px;
@@ -210,11 +218,11 @@ body {
   position: relative;
 }
 
-#product1 .product:hover{
-  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
+#product1 .product:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
 
-#product1 .product img{
+#product1 .product img {
   width: 100%;
   border-radius: 20px;
 }
@@ -224,36 +232,35 @@ body {
   padding: 10px 0;
 }
 
-#product1 .product .description span{
+#product1 .product .description span {
   color: #606063;
   font-size: 12px;
 }
 
-#product1 .product .description h5{
+#product1 .product .description h5 {
   padding-top: 7px;
   color: #1a1a1a;
-  font-size: 14px; 
+  font-size: 14px;
 }
 
-#product1 .product .description i{
-  font-size: 12px; 
+#product1 .product .description i {
+  font-size: 12px;
   color: rgb(243, 181, 25);
 }
 
-#product1 .product .description h4{
+#product1 .product .description h4 {
   padding-top: 7px;
-  font-size: 15px; 
+  font-size: 15px;
   font-weight: 700;
   color: #088178;
 }
 
-#product1 .product .cart{
+#product1 .product .cart {
   width: 40px;
   height: 40px;
   line-height: 40px;
   border-radius: 50px;
   background-color: #e8f6ea;
-  font-weight: 500;
   color: #088178;
   border: 1px solid #cce7d0;
   position: absolute;
